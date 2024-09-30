@@ -30,7 +30,10 @@
     height: 650px;
     width: 700px;
     margin-left: 275px;
-    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(../assets/honey.jpg);
   }
 }
 .bodo {
@@ -62,8 +65,11 @@
   .aloe1 {
     height: 650px;
     width: 700px;
-    position: absolute;
     margin-top: 10px;
     margin-left: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(../assets/aloe.jpg);
   }
 }

@@ -34,8 +34,12 @@
   }
   .woman1 {
     height: 660px;
-    margin-left: 100px;
-    position: absolute;
+    width: 650px;
+    margin-left: 770px;
+    background-image: url(../assets/woman.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
   }
 }
 .rock {

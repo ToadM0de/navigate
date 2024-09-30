@@ -118,7 +118,10 @@ nav .links a {
   height: 650px;
   width: 700px;
   margin-left: 275px;
-  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../assets/honey.jpg);
 }
 
 .bodo {
@@ -149,9 +152,12 @@ nav .links a {
 .bodo .aloe1 {
   height: 650px;
   width: 700px;
-  position: absolute;
   margin-top: 10px;
   margin-left: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../assets/aloe.jpg);
 }
 
 .about {
@@ -188,8 +194,12 @@ nav .links a {
 }
 .about .woman1 {
   height: 660px;
-  margin-left: 100px;
-  position: absolute;
+  width: 650px;
+  margin-left: 770px;
+  background-image: url(../assets/woman.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .rock {
@@ -255,10 +265,13 @@ nav .links a {
   position: absolute;
 }
 .journal .salt1 {
+  background-image: url(../assets/salt.jpg);
   height: 650px;
   width: 700px;
-  position: absolute;
   float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .journal2 {
@@ -268,7 +281,7 @@ nav .links a {
 }
 .journal2 .date2 {
   margin-left: 60px;
-  padding-top: 160px;
+  padding-top: 80px;
   font-size: 20px;
   color: #eae1dd;
   position: absolute;
@@ -281,7 +294,7 @@ nav .links a {
   text-align: center;
   color: #eae1dd;
   position: absolute;
-  margin-top: 200px;
+  margin-top: 120px;
 }
 .journal2 .words2 {
   text-decoration: none;
@@ -291,34 +304,44 @@ nav .links a {
   font-size: 25px;
   text-align: center;
   padding-top: 5px;
-  margin-top: 430px;
-  margin-left: 100px;
+  margin-top: 370px;
+  margin-left: 80px;
   color: #eae1dd;
   float: left;
   position: absolute;
 }
 .journal2 .pile1 {
-  height: 670px;
-  width: 730px;
-  position: absolute;
-  float: left;
-  margin-left: 700px;
-  margin-top: 10px;
-  padding-bottom: 100px;
+  background-image: url(../assets/pile.jpg);
+  height: 600px;
+  width: 600px;
+  margin-left: 750px;
+  padding-bottom: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 300px;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   background-color: #8f9779;
+  align-items: center;
 }
 .contact .conMe {
-  font-size: 70px;
+  width: 100%;
+  font-size: 90px;
   padding-bottom: 50px;
   color: #eae1dd;
-}
-.contact .firstName {
-  flex-direction: row;
+  height: 600px;
+  background-image: url(../assets/stack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 0 2000px rgba(120, 134, 107, 0.4), 0 0 8px 8px #8f9779 inset;
+  text-align: center;
+  padding-top: 250px;
 }
 .contact label,
 .contact input {
@@ -329,7 +352,7 @@ nav .links a {
   color: #eae1dd;
 }
 .contact input {
-  width: 40%;
+  width: 60%;
   height: 50px;
   margin-bottom: 40px;
   border-radius: 10px;
@@ -344,15 +367,10 @@ nav .links a {
 }
 .contact .send {
   background-color: #eae1dd;
-  width: 20%;
-  margin-left: 140px;
+  width: 40%;
   font-size: 20px;
   float: left;
   color: #8f9779;
-}
-.contact .stack1 {
-  position: absolute;
-  margin-left: 625px;
 }
 
 .foot {

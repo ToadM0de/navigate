@@ -34,10 +34,13 @@
     position: absolute;
   }
   .salt1 {
+    background-image: url(../assets/salt.jpg);
     height: 650px;
     width: 700px;
-    position: absolute;
     float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
   }
 }
 .journal2 {
@@ -47,7 +50,7 @@
 
   .date2 {
     margin-left: 60px;
-    padding-top: 160px;
+    padding-top: 80px;
     font-size: 20px;
     color: #eae1dd;
     position: absolute;
@@ -61,7 +64,7 @@
     text-align: center;
     color: #eae1dd;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 120px;
   }
 
   .words2 {
@@ -72,19 +75,21 @@
     font-size: 25px;
     text-align: center;
     padding-top: 5px;
-    margin-top: 430px;
-    margin-left: 100px;
+    margin-top: 370px;
+    margin-left: 80px;
     color: #eae1dd;
     float: left;
     position: absolute;
   }
   .pile1 {
-    height: 670px;
-    width: 730px;
-    position: absolute;
-    float: left;
-    margin-left: 700px;
-    margin-top: 10px;
-    padding-bottom: 100px;
+    background-image: url(../assets/pile.jpg);
+    height: 600px;
+    width: 600px;
+    margin-left: 750px;
+    padding-bottom: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-right: 300px;
   }
 }

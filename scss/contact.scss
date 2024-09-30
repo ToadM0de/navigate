@@ -2,15 +2,23 @@
   display: flex;
   flex-direction: column;
   background-color: #8f9779;
+  align-items: center;
 
   .conMe {
-    font-size: 70px;
+    width: 100%;
+    font-size: 90px;
     padding-bottom: 50px;
     color: #eae1dd;
-  }
-
-  .firstName {
-    flex-direction: row;
+    height: 600px;
+    background-image: url(../assets/stack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(120, 134, 107, 0.4),
+      0 0 8px 8px #8f9779 inset;
+    text-align: center;
+    padding-top: 250px;
   }
 
   label,
@@ -24,7 +32,7 @@
   }
 
   input {
-    width: 40%;
+    width: 60%;
     height: 50px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -41,14 +49,9 @@
 
   .send {
     background-color: #eae1dd;
-    width: 20%;
-    margin-left: 140px;
+    width: 40%;
     font-size: 20px;
     float: left;
     color: #8f9779;
-  }
-  .stack1 {
-    position: absolute;
-    margin-left: 625px;
   }
 }
