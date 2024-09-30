@@ -54,7 +54,6 @@ nav .links a {
   height: 510px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: #eae1dd;
 }
 .signIn label,
@@ -65,7 +64,7 @@ nav .links a {
   margin-bottom: 10px;
 }
 .signIn input {
-  width: 60%;
+  width: 40%;
   height: 50px;
   margin-bottom: 40px;
   border-radius: 10px;
@@ -77,8 +76,15 @@ nav .links a {
 }
 .signIn .submit {
   background-color: #eae1dd;
-  width: 30%;
+  width: 20%;
   color: #8f9779;
+  margin-left: 140px;
+}
+.signIn .flower1 {
+  height: 500px;
+  margin-left: 675px;
+  position: absolute;
+  padding-bottom: 50px;
 }
 
 .home {
@@ -108,7 +114,7 @@ nav .links a {
   margin-top: 430px;
   margin-left: 240px;
 }
-.home .honey {
+.home .honey1 {
   height: 650px;
   width: 700px;
   margin-left: 275px;
@@ -140,7 +146,7 @@ nav .links a {
   margin-top: 380px;
   margin-left: 910px;
 }
-.bodo .aloe {
+.bodo .aloe1 {
   height: 650px;
   width: 700px;
   position: absolute;
@@ -180,7 +186,7 @@ nav .links a {
   margin-left: 70px;
   color: #eae1dd;
 }
-.about .woman {
+.about .woman1 {
   height: 660px;
   margin-left: 100px;
   position: absolute;
@@ -248,7 +254,7 @@ nav .links a {
   color: #eae1dd;
   position: absolute;
 }
-.journal .salt {
+.journal .salt1 {
   height: 650px;
   width: 700px;
   position: absolute;
@@ -291,7 +297,7 @@ nav .links a {
   float: left;
   position: absolute;
 }
-.journal2 .pile {
+.journal2 .pile1 {
   height: 670px;
   width: 730px;
   position: absolute;
@@ -344,7 +350,7 @@ nav .links a {
   float: left;
   color: #8f9779;
 }
-.contact .stack {
+.contact .stack1 {
   position: absolute;
   margin-left: 625px;
 }

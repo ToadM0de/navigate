@@ -2,7 +2,6 @@
   height: 510px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: #eae1dd;
 
   label,
@@ -15,7 +14,7 @@
   }
 
   input {
-    width: 60%;
+    width: 40%;
     height: 50px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -28,7 +27,14 @@
 
   .submit {
     background-color: #eae1dd;
-    width: 30%;
+    width: 20%;
     color: #8f9779;
+    margin-left: 140px;
+  }
+  .flower1 {
+    height: 500px;
+    margin-left: 675px;
+    position: absolute;
+    padding-bottom: 50px;
   }
 }
