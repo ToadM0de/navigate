@@ -1,0 +1,28 @@
+nav {
+  height: 100px;
+  background-color: #8f9779;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+
+  .logo-holder {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+
+  .links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+      color: #d6b8a9;
+      border: white;
+    }
+  }
+}

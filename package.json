@@ -1,0 +1,19 @@
+{
+  "name": "navigate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass scss/styles.scss css/styles.css -w --no-source-map",
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.79.4"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.14.1"
+  }
+}

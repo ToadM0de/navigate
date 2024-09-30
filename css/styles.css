@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  padding: 50px;
+  background-color: #8f9779;
+}
+
+nav {
+  height: 100px;
+  background-color: #8f9779;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+nav .logo-holder {
+  height: 100%;
+}
+nav .logo-holder img {
+  height: 100%;
+}
+nav .links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .links a {
+  text-decoration: none;
+  color: #d6b8a9;
+  border: white;
+}
+
+.signIn {
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eae1dd;
+}
+.signIn label,
+.signIn input {
+  display: block;
+}
+.signIn label {
+  margin-bottom: 10px;
+}
+.signIn input {
+  width: 60%;
+  height: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: #eae1dd;
+  border-color: #eae1dd;
+  color: #8f9779;
+}
+.signIn .submit {
+  background-color: #eae1dd;
+  width: 30%;
+  color: #8f9779;
+}
+
+.home {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+}
+.home .body {
+  font-size: 100px;
+  width: 500px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 80px;
+  text-align: center;
+  color: #eae1dd;
+}
+.home .a1 {
+  text-decoration: none;
+  color: #8f9779;
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  background-color: #eae1dd;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 430px;
+  margin-left: 240px;
+}
+.home .honey {
+  height: 650px;
+  width: 700px;
+  margin-left: 275px;
+  position: absolute;
+}
+
+.bodo {
+  width: 100%;
+  height: 750px;
+}
+.bodo .bodoWord {
+  font-size: 100px;
+  width: 500px;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 850px;
+  text-align: center;
+  color: #eae1dd;
+}
+.bodo .vords {
+  text-decoration: none;
+  color: #eae1dd;
+  height: 50px;
+  width: 400px;
+  font-size: 35px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 380px;
+  margin-left: 910px;
+}
+.bodo .aloe {
+  height: 650px;
+  width: 700px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.about {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+}
+.about a {
+  color: #d6b8a9;
+  text-decoration: none;
+  border: white;
+}
+.about .body2 {
+  font-size: 60px;
+  width: 640px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 30px;
+  text-align: center;
+  color: #eae1dd;
+}
+.about .max {
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 550px;
+  font-size: 25px;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 390px;
+  margin-left: 70px;
+  color: #eae1dd;
+}
+.about .woman {
+  height: 660px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.rock {
+  width: 100%;
+  height: 600px;
+  background-image: url(../assets/rock.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 110px;
+  box-shadow: inset 0 0 0 2000px rgba(120, 134, 107, 0.4), 0 0 8px 8px #8f9779 inset;
+}
+
+.earth {
+  text-align: center;
+  font-size: 90px;
+  width: 700px;
+  color: #eae1dd;
+  margin-left: 380px;
+  padding-top: 220px;
+}
+
+.underRock {
+  font-size: 40px;
+  width: 1100px;
+  padding-top: 40px;
+  color: #eae1dd;
+  padding-bottom: 50px;
+}
+
+.journal {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+}
+.journal .date {
+  margin-left: 850px;
+  padding-top: 130px;
+  font-size: 20px;
+  color: #eae1dd;
+}
+.journal .title {
+  font-size: 60px;
+  width: 550px;
+  position: absolute;
+  margin-left: 790px;
+  text-align: center;
+  color: #eae1dd;
+  position: absolute;
+}
+.journal .words {
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 170px;
+  margin-left: 810px;
+  color: #eae1dd;
+  position: absolute;
+}
+.journal .salt {
+  height: 650px;
+  width: 700px;
+  position: absolute;
+  float: left;
+}
+
+.journal2 {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+}
+.journal2 .date2 {
+  margin-left: 60px;
+  padding-top: 160px;
+  font-size: 20px;
+  color: #eae1dd;
+  position: absolute;
+}
+.journal2 .title2 {
+  font-size: 60px;
+  width: 550px;
+  position: absolute;
+  margin-left: 50px;
+  text-align: center;
+  color: #eae1dd;
+  position: absolute;
+  margin-top: 200px;
+}
+.journal2 .words2 {
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 430px;
+  margin-left: 100px;
+  color: #eae1dd;
+  float: left;
+  position: absolute;
+}
+.journal2 .pile {
+  height: 670px;
+  width: 730px;
+  position: absolute;
+  float: left;
+  margin-left: 700px;
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #8f9779;
+}
+.contact .conMe {
+  font-size: 70px;
+  padding-bottom: 50px;
+  color: #eae1dd;
+}
+.contact .firstName {
+  flex-direction: row;
+}
+.contact label,
+.contact input {
+  display: block;
+}
+.contact label {
+  font-size: 20px;
+  color: #eae1dd;
+}
+.contact input {
+  width: 40%;
+  height: 50px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  background-color: #eae1dd;
+  border-color: #eae1dd;
+  color: #8f9779;
+}
+.contact .message {
+  height: 200px;
+}
+.contact .send {
+  background-color: #eae1dd;
+  width: 20%;
+  margin-left: 140px;
+  font-size: 20px;
+  float: left;
+  color: #8f9779;
+}
+.contact .stack {
+  position: absolute;
+  margin-left: 625px;
+}
+
+.foot {
+  width: 100%;
+  height: 80px;
+  background-color: #0f1702;
+  position: absolute;
+  margin-top: 2112px;
+}
+
+.name {
+  color: #eae1dd;
+  position: absolute;
+  width: 60px;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-bottom: 200px;
+}
+
+.home2 {
+  color: #eae1dd;
+  font-size: 20px;
+  margin-left: 1220px;
+  position: absolute;
+}
+
+.about2 {
+  color: #eae1dd;
+  font-size: 20px;
+  margin-left: 1330px;
+  position: absolute;
+}
+
+.products2 {
+  color: #eae1dd;
+  font-size: 20px;
+  margin-left: 1205px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.contact2 {
+  color: #eae1dd;
+  font-size: 20px;
+  margin-left: 1320px;
+  position: absolute;
+  margin-top: 10px;
+}

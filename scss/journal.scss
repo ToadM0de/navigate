@@ -1,0 +1,90 @@
+.journal {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+
+  .date {
+    margin-left: 850px;
+    padding-top: 130px;
+    font-size: 20px;
+    color: #eae1dd;
+  }
+
+  .title {
+    font-size: 60px;
+    width: 550px;
+    position: absolute;
+    margin-left: 790px;
+    text-align: center;
+    color: #eae1dd;
+    position: absolute;
+  }
+
+  .words {
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 170px;
+    margin-left: 810px;
+    color: #eae1dd;
+    position: absolute;
+  }
+  .salt {
+    height: 650px;
+    width: 700px;
+    position: absolute;
+    float: left;
+  }
+}
+.journal2 {
+  background-color: #8f9779;
+  height: 640px;
+  width: 100%;
+
+  .date2 {
+    margin-left: 60px;
+    padding-top: 160px;
+    font-size: 20px;
+    color: #eae1dd;
+    position: absolute;
+  }
+
+  .title2 {
+    font-size: 60px;
+    width: 550px;
+    position: absolute;
+    margin-left: 50px;
+    text-align: center;
+    color: #eae1dd;
+    position: absolute;
+    margin-top: 200px;
+  }
+
+  .words2 {
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 500px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 430px;
+    margin-left: 100px;
+    color: #eae1dd;
+    float: left;
+    position: absolute;
+  }
+  .pile {
+    height: 670px;
+    width: 730px;
+    position: absolute;
+    float: left;
+    margin-left: 700px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+  }
+}

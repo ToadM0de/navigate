@@ -1,0 +1,34 @@
+.signIn {
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #eae1dd;
+
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 60%;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #eae1dd;
+    border-color: #eae1dd;
+    color: #8f9779;
+  }
+
+  .submit {
+    background-color: #eae1dd;
+    width: 30%;
+    color: #8f9779;
+  }
+}

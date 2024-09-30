@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #8f9779;
+
+  .conMe {
+    font-size: 70px;
+    padding-bottom: 50px;
+    color: #eae1dd;
+  }
+
+  .firstName {
+    flex-direction: row;
+  }
+
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    font-size: 20px;
+    color: #eae1dd;
+  }
+
+  input {
+    width: 40%;
+    height: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: #eae1dd;
+    border-color: #eae1dd;
+    color: #8f9779;
+  }
+
+  .message {
+    height: 200px;
+  }
+
+  .send {
+    background-color: #eae1dd;
+    width: 20%;
+    margin-left: 140px;
+    font-size: 20px;
+    float: left;
+    color: #8f9779;
+  }
+  .stack {
+    position: absolute;
+    margin-left: 625px;
+  }
+}
