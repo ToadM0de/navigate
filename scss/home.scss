@@ -26,14 +26,14 @@
     margin-top: 430px;
     margin-left: 240px;
   }
-  .honey1 {
+  .coffee1 {
     height: 650px;
     width: 700px;
-    margin-left: 275px;
+    margin-left: 720px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url(../assets/honey.jpg);
+    background-image: url(../assets/coffee.jpg);
   }
 }
 .bodo {
@@ -61,15 +61,16 @@
     padding-top: 5px;
     margin-top: 380px;
     margin-left: 910px;
+    position: absolute;
   }
-  .aloe1 {
+  .honey1 {
     height: 650px;
     width: 700px;
-    margin-top: 10px;
     margin-left: 15px;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url(../assets/aloe.jpg);
+    background-image: url(../assets/honey.jpg);
+    float: left;
   }
 }
